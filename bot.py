@@ -1,9 +1,8 @@
-import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-BOT_TOKEN = os.environ["BOT_TOKEN"]
-PWA_LINK = os.environ.get("PWA_LINK", "https://instanthlx.pics")
+BOT_TOKEN = "8665546957:AAGjzxEuc5ZH8gxq9Wy33WXHA0akcglHmMM"
+PWA_LINK = "https://instanthlx.pics"
 
 WELCOME_TEXT = """🎰 Добро пожаловать!
 
