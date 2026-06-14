@@ -12,7 +12,7 @@ WELCOME_TEXT = """🎰 Добро пожаловать!
 💰 *30 000 ₸* — за регистрацию + первый депозит
 🚀 *До 60 000 ₸* — за пополнение счёта
 
-👇 Нажми кнопку ниже, чтобы начать:"""
+👇 Нажми чтобы скачать приложение:"""
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [[InlineKeyboardButton("🎯 Получить бонус", url=PWA_LINK)]]
